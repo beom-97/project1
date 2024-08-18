@@ -1,0 +1,47 @@
+#login-container {
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login-container>#loginbox {
+    width: 700px;
+    height: 230px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(71, 95, 130, 0.7);
+    gap: 15px;
+}
+
+#login-container>#loginbox>#idinputfield {
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#login-container>#loginbox>#passwordinputfield {
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#login-container>#loginbox>#buttonfield {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#login-container>#loginbox>#buttonfield>button {
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}

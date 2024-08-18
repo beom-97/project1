@@ -1,0 +1,74 @@
+#home-container {
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-container > #main > #container {
+    width: 1920px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#home-container > #main > #container > .box2 {
+    width: 945px;
+    height: 416px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 6px;
+}
+
+#home-container > #main > #container > .box2 > #titletext {
+    width: 925px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+}
+
+#home-container > #main > #container > .box2 > .textbox {
+    width: 925px;
+}
+
+#home-container > #main > #container > .box2 > .textbox > .text {
+    width: 925px;
+    height: 30px;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 0 12.5px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no {
+    width: 100px;
+    text-align: center;
+}
+
+.title {
+    width: 550px;
+    text-align: center;
+}
+
+.Author {
+    width: 100px;
+    text-align: center;
+}
+
+.postdate {
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+.detailed-container {
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailed-container>.detailedpagebox {
+    width: 1920px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.detailed-container>.detailedpagebox>.detailedbox1 {
+    width: 1800px;
+    height: 800px;
+    background-color: rgba(70, 70, 70, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.detailed-container>.detailedpagebox>.detailedbox1>.detailedtextbox1 {
+    width: 1700px;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.detailed-container>.detailedpagebox>.detailedbox1>.detailedtitle {
+    width: 1700px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.detailed-container>.detailedpagebox>.detailedbox1>.detailedtextbox2 {
+    width: 1700px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.detailed-container>.detailedpagebox>.detailedbox1>.buttonfield {
+    width: 1700px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailed-container>.detailedpagebox>.detailedbox1>.buttonfield>.backtolist {
+    width: 300px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}

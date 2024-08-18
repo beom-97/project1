@@ -1,0 +1,89 @@
+#signup-container {
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-container>#signupbox {
+    width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(71, 95, 130, 0.7);
+    gap: 18px;
+    padding: 20px;
+}
+
+#signup-container>#signupbox>#maintextbox {
+    width: 560px;
+    text-align: center;
+}
+
+#signup-container>#signupbox>#maintextbox>#text1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#signup-container>#signupbox>#idinputfield {
+    width: 560px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#signup-container>#signupbox>#passwordinputfield {
+    width: 560px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#signup-container>#signupbox>#emailinputfield {
+    width: 560px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#signup-container>#signupbox>#brithdayinputfield {
+    width: 560px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#signup-container>#signupbox>#phoninputfield {
+    width: 560px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#signup-container>#signupbox>#codeinputfield {
+    width: 560px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#signup-container>#signupbox>#buttonfield {
+    width: 560px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#signup-container>#signupbox>#buttonfield>button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}
