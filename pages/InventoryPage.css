@@ -1,0 +1,31 @@
+#inventory-container {
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inventory-container>#inventorymainbox {
+    width: 1920px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#inventory-container>#inventorymainbox>#mainbox {
+    width: 1800px;
+    height: 800px;
+    background-color: rgba(70, 70, 70, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+}

@@ -1,6 +1,6 @@
-import './CreatePage.css'
+import './EditPage.css'
 
-function CreatePage() {
+function EditPage() {
     return (
         <div class="create-container">
             <div class="category">
@@ -10,7 +10,7 @@ function CreatePage() {
             </div>
             <div class="createbox1">
                 <div class="mainbox1">
-                    <div class="titletextbox1">글쓰기</div>
+                    <div class="titletextbox1">글수정</div>
                     <div id='box1'>
                         <div class="categoryscroll1">
                             <select name="catagory">
@@ -25,7 +25,8 @@ function CreatePage() {
                     <input type='text' class="writetitle"></input>
                     <div class="button">
                         <button class="">뒤로가기</button>
-                        <button class="">등록하기</button>
+                        <button class="">수정하기</button>
+                        <button class="">삭제하기</button>
                     </div>
                 </div>
             </div>
@@ -35,4 +36,4 @@ function CreatePage() {
     )
 }
 
-export default CreatePage;
+export default EditPage;

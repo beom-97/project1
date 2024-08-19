@@ -8,6 +8,8 @@ import AsiaDetailedPage from './pages/AsiaDetailedPage';
 import AmericaDetailedPage from './pages/AmericaDetailedPage';
 import AfricaOceaniaDetailedPage from './pages/AfricaOceaniaDetailedPage';
 import CreatePage from './pages/CreatePage';
+import EditPage from './pages/EditPage';
+import InventoryPage from './pages/InventoryPage';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Route path='/amdetailed' element={<AmericaDetailedPage />}></Route>
           <Route path='/afdetailed' element={<AfricaOceaniaDetailedPage />}></Route>
           <Route path='/create' element={<CreatePage />}></Route>
+          <Route path='/edit' element={<EditPage />}></Route>
+          <Route path='/inventory' element={<InventoryPage />}></Route>
         </Routes>
       </main>
       <footer>
