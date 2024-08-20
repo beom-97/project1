@@ -1,11 +1,11 @@
-#inventory-container {
+.inventory-container {
     height: 980px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#inventory-container>#inventorymainbox {
+.inventory-container>.inventorymainbox {
     width: 1920px;
     height: 920px;
     display: flex;
@@ -18,7 +18,7 @@
     padding: 10px;
 }
 
-#inventory-container>#inventorymainbox>#mainbox {
+.inventory-container>.inventorymainbox>.mainbox {
     width: 1800px;
     height: 800px;
     background-color: rgba(70, 70, 70, 0.6);
@@ -28,4 +28,102 @@
     box-sizing: border-box;
     padding: 10px;
     gap: 10px;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.maintitle1 {
+    width: 1700px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.top {
+    width: 1700px;
+    height: 40px;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.top>.num {
+    width: 10%;
+}
+
+
+.inventory-container>.inventorymainbox>.mainbox>.top>.title {
+    width: 60%;
+    ;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.top>.writer {
+    width: 15%;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.top>.date {
+    width: 15%;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.main1 {
+    width: 1700px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.main1>.middle {
+    width: 1700px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.main1>.middle>.num {
+    width: 10%;
+}
+
+
+.inventory-container>.inventorymainbox>.mainbox>.main1>.middle>.title {
+    width: 60%;
+    ;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.main1>.middle>.writer {
+    width: 15%;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.main1>.middle>.date {
+    width: 15%;
+}
+
+
+
+.inventory-container>.inventorymainbox>.mainbox>.board_page {
+    width: 1700px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.board_page>a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    line-height: 100%;
+    text-align: center;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>#butten {
+    width: 1700px;
+    height: 50px;
 }

@@ -9,7 +9,7 @@ import AmericaDetailedPage from './pages/AmericaDetailedPage';
 import AfricaOceaniaDetailedPage from './pages/AfricaOceaniaDetailedPage';
 import CreatePage from './pages/CreatePage';
 import EditPage from './pages/EditPage';
-import InventoryPage from './pages/InventoryPage';
+import EuropeInventoryPage from './pages/EuropeInventoryPage';
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <Route path='/afdetailed' element={<AfricaOceaniaDetailedPage />}></Route>
           <Route path='/create' element={<CreatePage />}></Route>
           <Route path='/edit' element={<EditPage />}></Route>
-          <Route path='/inventory' element={<InventoryPage />}></Route>
+          <Route path='/euinventory' element={<EuropeInventoryPage />}></Route>
         </Routes>
       </main>
       <footer>
