@@ -31,6 +31,11 @@ function App() {
           <Route path='/create' element={<CreatePage />}></Route>
           <Route path='/edit' element={<EditPage />}></Route>
           <Route path='/euinventory' element={<EuropeInventoryPage />}></Route>
+          {/*
+          <Route path='/aminventory' element={<AmericaInventoryPage />}></Route>
+          <Route path='/asinventory' element={<AsiaInventoryPage />}></Route>
+          <Route path='/aoventory' element={<AfricaOceaniaInventoryPage />}></Route>
+          */}
         </Routes>
       </main>
       <footer>

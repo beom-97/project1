@@ -113,17 +113,26 @@
 }
 
 .inventory-container>.inventorymainbox>.mainbox>.board_page>a {
-    display: inline-block;
     width: 40px;
     height: 40px;
     box-sizing: border-box;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #000000;
     line-height: 100%;
-    text-align: center;
+    font-size: 20px;
 }
 
-.inventory-container>.inventorymainbox>.mainbox>#butten {
+.inventory-container>.inventorymainbox>.mainbox>.buttonbox {
     width: 1700px;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inventory-container>.inventorymainbox>.mainbox>.buttonbox>.button {
+    width: 150px;
+    height: 40px;
 }
