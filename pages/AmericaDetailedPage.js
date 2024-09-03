@@ -9,16 +9,16 @@ function AmericaDetailedPage() {
         navigate("/");
     }
     const gotoaisa = () => {
-        navigate("/");
+        navigate("/asinventory");
     }
     const gotoamerica = () => {
-        navigate("/");
+        navigate("/aminventory");
     }
     const gotoeurope = () => {
         navigate("/euinventory");
     }
     const gotoAmericAoceania = () => {
-        navigate("/");
+        navigate("/aoinventory");
     }
     const gotomypage = () => {
         navigate("/");
@@ -31,7 +31,7 @@ function AmericaDetailedPage() {
                     <button id="asia" class="e" onClick={gotoaisa}>아시아 대륙</button>
                     <button id="america" class="e" onClick={gotoamerica}>아메리카 대륙</button>
                     <button id="europe" class="e" onClick={gotoeurope}>유럽 대륙</button>
-                    <button id="america&oceania" class="e" onClick={gotoAmericAoceania}>아메리카&오세아니아 대륙</button>
+                    <button id="america&oceania" class="e" onClick={gotoAmericAoceania}>아프리카&오세아니아 대륙</button>
                     <button id="mypage" class="e" onClick={gotomypage}>마이페이지</button>
                     <button id="logout" class="e" onClick={gotologout}>로그아웃</button>
                 </div>

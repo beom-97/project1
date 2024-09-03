@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
@@ -10,14 +10,19 @@ import AfricaOceaniaDetailedPage from './pages/AfricaOceaniaDetailedPage';
 import CreatePage from './pages/CreatePage';
 import EditPage from './pages/EditPage';
 import EuropeInventoryPage from './pages/EuropeInventoryPage';
+import AsiaInventoryPage from './pages/AsiaInventoryPage';
+import AmericaInventoryPage from './pages/AmericaInventoryPage';
+import AfricaOceaniaInventoryPage from './pages/AfricaOceaniaInventoryPage';
 
 
 function App() {
   return (
     <div id='project'>
       <header>
-        <p>세계여행을 위한</p>
-        <p>For World Travel</p>
+        <Link to="/home">
+          <p>세계여행을 위한</p>
+          <p>For World Travel</p>
+        </Link>
       </header>
       <main>
         <Routes>
@@ -31,11 +36,9 @@ function App() {
           <Route path='/create' element={<CreatePage />}></Route>
           <Route path='/edit' element={<EditPage />}></Route>
           <Route path='/euinventory' element={<EuropeInventoryPage />}></Route>
-          {/*
-          <Route path='/aminventory' element={<AmericaInventoryPage />}></Route>
           <Route path='/asinventory' element={<AsiaInventoryPage />}></Route>
-          <Route path='/aoventory' element={<AfricaOceaniaInventoryPage />}></Route>
-          */}
+          <Route path='/aminventory' element={<AmericaInventoryPage />}></Route>
+          <Route path='/aoinventory' element={<AfricaOceaniaInventoryPage />}></Route>
         </Routes>
       </main>
       <footer>

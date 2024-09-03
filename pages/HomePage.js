@@ -9,22 +9,20 @@ function HomePage() {
         navigate("/");
     }
     const gotoaisa = () => {
-        navigate("/");
+        navigate("/asinventory");
     }
     const gotoamerica = () => {
-        navigate("/");
+        navigate("/aminventory");
     }
     const gotoeurope = () => {
         navigate("/euinventory");
     }
-    const gotoAmericAoceania = () => {
-        navigate("/");
+    const gotoAfricaOceania = () => {
+        navigate("/aoinventory");
     }
     const gotomypage = () => {
         navigate("/");
     }
-
-
 
     return (
         <div id="home-container">
@@ -33,7 +31,7 @@ function HomePage() {
                     <button id="asia" class="e" onClick={gotoaisa}>아시아 대륙</button>
                     <button id="america" class="e" onClick={gotoamerica}>아메리카 대륙</button>
                     <button id="europe" class="e" onClick={gotoeurope}>유럽 대륙</button>
-                    <button id="america&oceania" class="e" onClick={gotoAmericAoceania}>아메리카&오세아니아 대륙</button>
+                    <button id="america&oceania" class="e" onClick={gotoAfricaOceania}>아프리카&오세아니아 대륙</button>
                     <button id="mypage" class="e" onClick={gotomypage}>마이페이지</button>
                     <button id="logout" class="e" onClick={gotologout}>로그아웃</button>
                 </div>
@@ -41,7 +39,7 @@ function HomePage() {
             <div id="main">
                 <div id="container">
                     <div class="box2">
-                        <div id="titletext">
+                        <div id="titletext" onClick={gotoaisa}>
                             아시아 대륙
                         </div>
                         <div class="textbox">
@@ -241,7 +239,7 @@ function HomePage() {
                     </div>
                     <div class="box2">
                         <div id="titletext">
-                            <p class="titletext">아메리카 대륙</p>
+                            <p class="titletext" onClick={gotoamerica}>아메리카 대륙</p>
                         </div>
                         <div class="textbox">
                             <div class="text">
@@ -639,7 +637,7 @@ function HomePage() {
                     </div>
                     <div class="box2">
                         <div id="titletext">
-                            <p class="titletext">아프리카&오세아니아 대륙</p>
+                            <p class="titletext" onClick={gotoAfricaOceania}>아프리카&오세아니아 대륙</p>
                         </div>
                         <div class="textbox">
                             <div class="text">

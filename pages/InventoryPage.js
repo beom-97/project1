@@ -10,16 +10,16 @@ function InventoryPage() {
         navigate("/");
     }
     const gotoaisa = () => {
-        navigate("/");
+        navigate("/asinventory");
     }
     const gotoamerica = () => {
-        navigate("/");
+        navigate("/aminventory");
     }
     const gotoeurope = () => {
         navigate("/euinventory");
     }
     const gotoAmericAoceania = () => {
-        navigate("/");
+        navigate("/aoinventory");
     }
     const gotomypage = () => {
         navigate("/");

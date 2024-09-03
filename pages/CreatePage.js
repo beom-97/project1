@@ -9,19 +9,22 @@ function CreatePage() {
         navigate("/");
     }
     const gotoaisa = () => {
-        navigate("/");
+        navigate("/asinventory");
     }
     const gotoamerica = () => {
-        navigate("/");
+        navigate("/aminventory");
     }
     const gotoeurope = () => {
         navigate("/euinventory");
     }
     const gotoAmericAoceania = () => {
-        navigate("/");
+        navigate("/aoinventory");
     }
     const gotomypage = () => {
         navigate("/create");
+    }
+    const back = () => {
+        navigate(-1); // 이전 페이지로 이동
     }
 
     return (
@@ -31,7 +34,7 @@ function CreatePage() {
                     <button id="asia" class="e" onClick={gotoaisa}>아시아 대륙</button>
                     <button id="america" class="e" onClick={gotoamerica}>아메리카 대륙</button>
                     <button id="europe" class="e" onClick={gotoeurope}>유럽 대륙</button>
-                    <button id="america&oceania" class="e" onClick={gotoAmericAoceania}>아메리카&오세아니아 대륙</button>
+                    <button id="america&oceania" class="e" onClick={gotoAmericAoceania}>아프리카&오세아니아 대륙</button>
                     <button id="mypage" class="e" onClick={gotomypage}>마이페이지</button>
                     <button id="logout" class="e" onClick={gotologout}>로그아웃</button>
                 </div>
@@ -52,7 +55,7 @@ function CreatePage() {
                     </div>
                     <input type='text' class="writetitle"></input>
                     <div class="button">
-                        <button class="">뒤로가기</button>
+                        <button class="" onClick={back}>뒤로가기</button>
                         <button class="">등록하기</button>
                     </div>
                 </div>
